@@ -1,0 +1,24 @@
+#---------------------------------------
+#--------- PARAMETERS FILE -------------
+#---------------------------------------
+#+++++++++++++++++++++++++++++++++++++++
+#Masses in Solar Masses
+Mass = 1.0
+#Filename
+#FILENAME = ./../../Data/Temp_data/puntos10000.dat
+FILENAME = ./../../Data/Data_task/halo_004497.dat
+#Number of total particles
+#Np_tot = 10000
+Np_tot = 559421
+#Number of particles
+Nparts = 10000
+#Nparts = 559421
+#Number of grid points
+#Ngrid = 4
+#Ngrid = 8
+Ngrid = 10
+#Ngrid = 40
+#Box Size
+#L = 7.0
+#L = 8.0
+#L = 440.0

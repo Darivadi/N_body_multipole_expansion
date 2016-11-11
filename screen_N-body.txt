@@ -1,0 +1,87 @@
+Reading parameters file
+  * The file 'parameters_file.txt' has been loaded!
+with 559421 particles, a sample of 10000 and 10 cells per axis with mass of 1.000000
+Reading parameters file: finished!
+-------------------------------------------------------------------------------------
+Allocating memory for particle structure
+Reading particle's data
+Ensayando... 10000, 559421
+Reading ./../../Data/Data_task/halo_004497.dat data file
+It passed!
+Let's comparing the number of particles
+Generating 10000 random indices between 0 and 559421
+Memory allocated
+Generated random number #0 with result 6
+Generated random number #2000 with result 111847
+Generated random number #4000 with result 223668
+Generated random number #6000 with result 335642
+Generated random number #8000 with result 447525
+Random numbers generated
+Reading data for nparts < np_tot
+counter must be Nparts: 10000
+File read
+Maximum values: x=0.664055, y=0.680359, z=0.650970
+Minimum values: x=-0.669083, y=-0.672638, z=-0.633339
+Box_x = 1.400000, Box_y = 1.400000, Box_z = 1.300000
+Number of particles 10000
+i=0 a_x=14278638.430878 a_y=-12921157.688427, a_z=-15083833.065863
+i=2000 a_x=-1987575.624978 a_y=495923.258607, a_z=-3299500.654237
+i=4000 a_x=-1155459.733188 a_y=-1117539.407406, a_z=1817642.805795
+i=6000 a_x=348950.959476 a_y=517704.513626, a_z=-1807083.170223
+i=8000 a_x=118128.542238 a_y=-1283833.415649, a_z=148804.404466
+Computing forces by direct sum for 10000 particles took    9.13393 seconds to execute
+-------------------------------------------------------------------------------------
+Forces using monopole approximation
+P3M code: Allocating memory
+CellSize_x = 0.140000, CellSize_y = 0.140000, CellSize_z = 0.130000
+Locating particles in the grid
+Particles located in the grid
+Starting NGP MAS
+NGP MAS finished. Let's begin with the computing of forces
+-------------------------------------------------------------------------------------
+i=0 a_x=11754190.349745 a_y=-14052344.973129, a_z=-17632167.063259
+i=2000 a_x=-29985.036227 a_y=-528678.775472, a_z=-940145.309070
+i=4000 a_x=-8209.893870 a_y=14991.737298, a_z=120359.222113
+i=6000 a_x=136413.267017 a_y=-24547.051213, a_z=144049.968654
+i=8000 a_x=84303.196705 a_y=163202.050672, a_z=61194.691463
+Computing forces with P3M scheme between 10000 particles and a grid with 10 ^3 cells and size (1.400000,1.400000,1.300000) units took    1.14528 seconds to execute. Tag = 0
+-------------------------------------------------------------------------------------
+File writen for Nparts = 10000, NCells=10 an tag = 0
+Freeing up memory
+Forces using monopole + dipole
+P3M code: Allocating memory
+CellSize_x = 0.140000, CellSize_y = 0.140000, CellSize_z = 0.130000
+Locating particles in the grid
+Particles located in the grid
+Starting NGP MAS
+NGP MAS finished. Let's begin with the computing of forces
+-------------------------------------------------------------------------------------
+i=0 a_x=12092177.464827 a_y=-13708417.085584, a_z=-17309329.868980
+i=2000 a_x=254165.982470 a_y=-302841.092167, a_z=-681854.883470
+i=4000 a_x=308787.665151 a_y=329924.405623, a_z=250735.021448
+i=6000 a_x=310486.515629 a_y=114176.934179, a_z=504054.006305
+i=8000 a_x=191282.541225 a_y=413920.072716, a_z=144696.514709
+Computing forces with P3M scheme between 10000 particles and a grid with 10 ^3 cells and size (1.400000,1.400000,1.300000) units took    2.19270 seconds to execute. Tag = 1
+-------------------------------------------------------------------------------------
+File writen for Nparts = 10000, NCells=10 an tag = 1
+Freeing up memory
+Forces using monopole + dipole + quadrupole
+P3M code: Allocating memory
+CellSize_x = 0.140000, CellSize_y = 0.140000, CellSize_z = 0.130000
+Locating particles in the grid
+Particles located in the grid
+Starting NGP MAS
+NGP MAS finished. Let's begin with the computing of forces
+-------------------------------------------------------------------------------------
+i=0 a_x=12588069.346299 a_y=-13185806.170320, a_z=-16817713.370287
+i=2000 a_x=644775.486961 a_y=-8713.102958, a_z=-322038.445627
+i=4000 a_x=745574.760380 a_y=770655.778877, a_z=369008.892415
+i=6000 a_x=482907.895233 a_y=235055.848754, a_z=1004087.764278
+i=8000 a_x=277484.743266 a_y=715178.382284, a_z=204978.579965
+Computing forces with P3M scheme between 10000 particles and a grid with 10 ^3 cells and size (1.400000,1.400000,1.300000) units took    3.15439 seconds to execute. Tag = 2
+-------------------------------------------------------------------------------------
+File writen for Nparts = 10000, NCells=10 an tag = 2
+Freeing up memory
+Code finished successfully!
+See ya! Mr. Barbarian
+-------------------------------------------------------------------------------------
